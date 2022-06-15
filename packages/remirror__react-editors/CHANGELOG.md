@@ -1,5 +1,34 @@
 # @remirror/react-editors
 
+## 1.0.0-beta.1
+
+> 2022-06-15
+
+### Major Changes
+
+- Use [official TypeScript type definitions](https://discuss.prosemirror.net/t/prosemirror-is-now-a-typescript-project/4624) from ProseMirror.
+
+### Patch Changes
+
+- Update ProseMirror packages to latest versions.
+- Standardize the `contextmenu` and `hover` events to return event as first parameter
+- Transform a hard break into `\n` in `Node.textContent`.
+- Rename `useEvent` to `useEditorEvent` to avoid confusion with the React hook of the same name
+
+  Remove the deprecated `useEvents` hook
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @remirror/pm@2.0.0-beta.1
+  - remirror@2.0.0-beta.1
+  - @remirror/extension-react-tables@2.0.0-beta.1
+  - @remirror/react@2.0.0-beta.1
+  - @remirror/core-helpers@2.0.0-beta.1
+  - @remirror/styles@2.0.0-beta.1
+
 ## 1.0.0-beta.0
 
 > 2022-05-31

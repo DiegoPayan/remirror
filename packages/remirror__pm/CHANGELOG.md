@@ -1,5 +1,24 @@
 # @remirror/pm
 
+## 2.0.0-beta.1
+
+> 2022-06-15
+
+### Major Changes
+
+- Use [official TypeScript type definitions](https://discuss.prosemirror.net/t/prosemirror-is-now-a-typescript-project/4624) from ProseMirror.
+
+### Patch Changes
+
+- Update ProseMirror packages to latest versions.
+- Updated dependencies
+- Updated dependencies
+  - prosemirror-paste-rules@2.0.0-beta.1
+  - prosemirror-suggest@2.0.0-beta.1
+  - prosemirror-trailing-node@2.0.0-beta.1
+  - @remirror/core-helpers@2.0.0-beta.1
+  - @remirror/core-constants@2.0.0-beta.1
+
 ## 2.0.0-beta.0
 
 > 2022-05-31

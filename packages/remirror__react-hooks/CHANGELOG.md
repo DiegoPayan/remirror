@@ -1,5 +1,36 @@
 # @remirror/react-hooks
 
+## 2.0.0-beta.1
+
+> 2022-06-15
+
+### Major Changes
+
+- Rename `useEvent` to `useEditorEvent` to avoid confusion with the React hook of the same name
+
+  Remove the deprecated `useEvents` hook
+
+- Use [official TypeScript type definitions](https://discuss.prosemirror.net/t/prosemirror-is-now-a-typescript-project/4624) from ProseMirror.
+
+### Patch Changes
+
+- Standardize the `contextmenu` and `hover` events to return event as first parameter
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @remirror/pm@2.0.0-beta.1
+  - @remirror/extension-events@2.0.0-beta.1
+  - @remirror/extension-mention@2.0.0-beta.1
+  - @remirror/extension-mention-atom@2.0.0-beta.1
+  - @remirror/extension-positioner@2.0.0-beta.1
+  - @remirror/react-core@2.0.0-beta.1
+  - @remirror/core@2.0.0-beta.1
+  - @remirror/extension-emoji@2.0.0-beta.1
+  - @remirror/extension-history@2.0.0-beta.1
+  - @remirror/i18n@2.0.0-beta.1
+  - @remirror/react-utils@2.0.0-beta.1
+  - multishift@1.0.9-beta.1
+
 ## 2.0.0-beta.0
 
 > 2022-05-31
